@@ -1,4 +1,82 @@
-body{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 150%;
+/* Global Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;          /* sets base font size */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #b0c4de;  /* light steel blue */
+  text-align: center;
+  padding: 10px;
+}
+
+/* Navigation */
+nav {
+  background-color: #d6eaf8;  /* light blue */
+  padding: 10px;
+}
+
+/* Main content */
+main {
+  background-color: #f9f9f9;  /* off-white */
+  font-size: 1.1rem;          /* slightly larger than body */
+  padding: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #e0e0e0;  /* light gray */
+  padding: 10px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/* List items (navigation links) */
+li {
+  display: inline-block;
+  width: 150px;               /* consistent width for each link */
+  text-align: center;
+}
+
+/* Remove default list styling and center nav */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Style nav links for better appearance */
+nav ul li a {
+  text-decoration: none;
+  color: #1f618d;
+  font-weight: bold;
+  display: block;             /* makes entire li area clickable */
+}
+
+/* Hover effect for nav links */
+nav ul li a:hover {
+  background-color: #aed6f1;
+  border-radius: 5px;
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  font-family: 'Georgia', Times, serif;
+  color: #2c3e50;             /* dark slate */
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.5;           /* improved readability */
+}
+
+/* Responsive images */
+img {
+  max-width: 100%;
+  height: auto;
 }
